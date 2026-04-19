@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "isl9241") (type "KiCad") (uri "${KIPRJMOD}/Parts/ISL9241HRTZ") (options "") (descr ""))
+)

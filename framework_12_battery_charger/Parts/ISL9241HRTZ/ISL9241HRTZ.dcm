@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISL9241HRTZ
+D The ISL9241 is a digitally configurable buck-boost battery charger that can support both Narrow Voltage Direct Charging (NVDC) and Hybrid Power Buck-Boost (HPBB/Bypass) charging and switch between the modes using firmware control. Bypass mode is also supported using the firmware of the controller, which allows the adapter to provide power directly to the system. The ISL9241 provides charging functionality, system bus regulation, and protection features using only NFETs for tablet, Ultrabook, and notebook pl
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/a2ca7ed206e0316506cdb2a4501bddf0.pdf
+$ENDCMP
+#
+#End Doc Library

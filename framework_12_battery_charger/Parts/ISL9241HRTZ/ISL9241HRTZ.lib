@@ -1,0 +1,56 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ISL9241HRTZ
+#/1828030/2037837/2.50/33/2/Integrated Circuit
+DEF ISL9241HRTZ IC 0 30 Y Y 1 F N
+F0 "IC" 1450 1100 50 H V L CNN
+F1 "ISL9241HRTZ" 1450 1000 50 H V L CNN
+F2 "QFN40P400X400X75-33N" 1450 900 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/a2ca7ed206e0316506cdb2a4501bddf0.pdf" 1450 800 50 H I L CNN
+F4 "The ISL9241 is a digitally configurable buck-boost battery charger that can support both Narrow Voltage Direct Charging (NVDC) and Hybrid Power Buck-Boost (HPBB/Bypass) charging and switch between the modes using firmware control. Bypass mode is also supported using the firmware of the controller, which allows the adapter to provide power directly to the system. The ISL9241 provides charging functionality, system bus regulation, and protection features using only NFETs for tablet, Ultrabook, and notebook pl" 1450 700 50 H I L CNN "Description"
+F5 "0.75" 1450 600 50 H I L CNN "Height"
+F6 "Renesas Electronics" 1450 500 50 H I L CNN "Manufacturer_Name"
+F7 "ISL9241HRTZ" 1450 400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "968-ISL9241HRTZ" 1450 300 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Renesas-Intersil/ISL9241HRTZ?qs=0lSvoLzn4L%252BnE1AiJlUgng%3D%3D" 1450 200 50 H I L CNN "Mouser Price/Stock"
+F10 "ISL9241HRTZ" 1450 100 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/isl9241hrtz/intersil" 1450 0 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CSON 1 0 0 200 R 50 50 0 0 P
+X CSOP 2 0 -100 200 R 50 50 0 0 P
+X NGATE 3 0 -200 200 R 50 50 0 0 P
+X BOOT2 4 0 -300 200 R 50 50 0 0 P
+X UGATE2 5 0 -400 200 R 50 50 0 0 P
+X PHASE2 6 0 -500 200 R 50 50 0 0 P
+X LGATE2 7 0 -600 200 R 50 50 0 0 P
+X VDDP 8 0 -700 200 R 50 50 0 0 P
+X LGATE1 9 400 -1400 200 U 50 50 0 0 P
+X PHASE1 10 500 -1400 200 U 50 50 0 0 P
+X UGATE1 11 600 -1400 200 U 50 50 0 0 P
+X BOOT1 12 700 -1400 200 U 50 50 0 0 P
+X BYPSRC 13 800 -1400 200 U 50 50 0 0 P
+X CSIN 14 900 -1400 200 U 50 50 0 0 P
+X CSIP 15 1000 -1400 200 U 50 50 0 0 P
+X BYPSG 16 1100 -1400 200 U 50 50 0 0 P
+X ACOK 24 1600 0 200 L 50 50 0 0 P
+X PROCHOT# 23 1600 -100 200 L 50 50 0 0 P
+X SCL 22 1600 -200 200 L 50 50 0 0 P
+X SDA 21 1600 -300 200 L 50 50 0 0 P
+X OTGEN/CMIN 20 1600 -400 200 L 50 50 0 0 P
+X PROG 19 1600 -500 200 L 50 50 0 0 P
+X VDD 18 1600 -600 200 L 50 50 0 0 P
+X DCIN 17 1600 -700 200 L 50 50 0 0 P
+X GND_BOTTOM_PAD 33 400 1100 200 D 50 50 0 0 P
+X BGATE 32 500 1100 200 D 50 50 0 0 P
+X VBAT 31 600 1100 200 D 50 50 0 0 P
+X PSYS/(REFADJ) 30 700 1100 200 D 50 50 0 0 P
+X AMON/BMON 29 800 1100 200 D 50 50 0 0 P
+X COMPF 28 900 1100 200 D 50 50 0 0 P
+X COMPR 27 1000 1100 200 D 50 50 0 0 P
+X CMOUT/INT# 26 1100 1100 200 D 50 50 0 0 P
+X BATGONE/NTC 25 1200 1100 200 D 50 50 0 0 P
+P 5 0 1 6 200 900 1400 900 1400 -1200 200 -1200 200 900 N
+ENDDRAW
+ENDDEF
+#
+#End Library
