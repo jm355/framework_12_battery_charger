@@ -1,0 +1,6 @@
+[submodule "reference/Framework-Laptop-12"]
+	path = reference/Framework-Laptop-12
+	url = git@github.com:FrameworkComputer/Framework-Laptop-12.git
+[submodule "reference/EmbeddedController"]
+	path = reference/EmbeddedController
+	url = git@github.com:FrameworkComputer/EmbeddedController.git
